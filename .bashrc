@@ -120,7 +120,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-alias vim="/opt/nvim-linux64/bin/nvim"
+alias vim="/opt/nvim/nvim"
 
 alias py="python3"
 
@@ -152,3 +152,4 @@ alias resource="source ~/.bashrc"
 eval "$(starship init bash)"
 
 source ~/.mailtrap
+source /usr/share/doc/fzf/examples/key-bindings.bash

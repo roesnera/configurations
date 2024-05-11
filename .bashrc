@@ -120,7 +120,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-alias vim="/usr/bin/nvim.appimage"
+alias vim="/opt/nvim/nvim"
 
 alias py="python3"
 
@@ -140,3 +140,4 @@ export BW_SESSION="8O8vJ/N/1F8V2j+9EDo9SYig5vooCAHCIqRB3WZAniqV8zW83ZEcuvWSngTPA
 if type rg &> /dev/null; then
     export FZF_DEFAULT_COMMAND='rg --files --hidden --no-ignore'
 fi
+source /usr/share/doc/fzf/examples/key-bindings.bash

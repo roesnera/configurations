@@ -125,6 +125,7 @@ alias vim="/opt/nvim-linux64/bin/nvim"
 alias py="python3"
 
 source ~/.github_pap
+source ~/.aws_access_key
 
 . "$HOME/.cargo/env"
 export CHROME_BIN="~/Downloads/ungoogled-chromium_114.0.5735.198-1.1_linux/chrome"

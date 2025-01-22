@@ -151,3 +151,4 @@ alias resource="source ~/.bashrc"
 
 eval "$(starship init bash)"
 
+source ~/.mailtrap

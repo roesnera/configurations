@@ -139,5 +139,6 @@ alias lazydocker="~/.local/bin/lazydocker"
 export BW_SESSION="8O8vJ/N/1F8V2j+9EDo9SYig5vooCAHCIqRB3WZAniqV8zW83ZEcuvWSngTPAUtq8gsBhMZcL+3EGcl4Sf2Q9g=="
 
 if type rg &> /dev/null; then
-    export FZF_DEFAULT_COMMAND='rg --files --hidden --no-ignore'
+    export FZF_DEFAULT_COMMAND='rg --files --hidden --ignore-file ~/.ignore'
+    export FZF_ALT_C_OPTS='--walker-skip=.local,.git,.steam,node_modules,.angular'
 fi

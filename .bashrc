@@ -149,3 +149,5 @@ alias rmn="rm -rf ./node_modules"
 alias rmni="rm -rf ./node_modules && npm i"
 alias resource="source ~/.bashrc"
 
+eval "$(starship init bash)"
+

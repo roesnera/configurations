@@ -142,3 +142,10 @@ if type rg &> /dev/null; then
     export FZF_DEFAULT_COMMAND='rg --files --hidden --ignore-file ~/.ignore'
     export FZF_ALT_C_OPTS='--walker-skip=.local,.git,.steam,node_modules,.angular'
 fi
+
+alias rma="rm -rf ./.angular/"
+alias rmai="rm -rf ./.angular/ && npm i"
+alias rmn="rm -rf ./node_modules"
+alias rmni="rm -rf ./node_modules && npm i"
+alias resource="source ~/.bashrc"
+

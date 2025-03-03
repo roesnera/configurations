@@ -1,0 +1,8 @@
+File: .bashrc
+Locations:
+~/.bashrc
+-----
+File: .tmux.conf
+Locations:
+~/.tmux.conf
+-----

@@ -152,3 +152,7 @@ alias resource="source ~/.bashrc"
 eval "$(starship init bash)"
 
 source ~/.mailtrap
+export EDITOR=vim
+alias jira="/home/adam/go/bin/jira"
+source ~/.jira_api
+eval "$(zoxide init bash)"

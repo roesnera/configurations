@@ -140,7 +140,7 @@ export BW_SESSION="8O8vJ/N/1F8V2j+9EDo9SYig5vooCAHCIqRB3WZAniqV8zW83ZEcuvWSngTPA
 
 if type rg &> /dev/null; then
     export FZF_DEFAULT_COMMAND='rg --files --hidden --ignore-file ~/.ignore'
-    export FZF_ALT_C_OPTS='--walker-skip=.local,.git,.steam,node_modules,.angular'
+    export FZF_ALT_C_OPTS='--walker-skip=.local,.git,.steam,node_modules,.angular,.wine,.gitkraken'
 fi
 
 alias rma="rm -rf ./.angular/"
@@ -148,6 +148,7 @@ alias rmai="rm -rf ./.angular/ && npm i"
 alias rmn="rm -rf ./node_modules"
 alias rmni="rm -rf ./node_modules && npm i"
 alias resource="source ~/.bashrc"
+alias docker_stop_all="docker stop $(docker ps | awk '{ print$12 }')"
 
 eval "$(starship init bash)"
 
